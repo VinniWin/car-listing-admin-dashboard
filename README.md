@@ -24,26 +24,24 @@ This is a modern Admin Dashboard web application built with [Next.js](https://ne
 
 ## Getting Started
 
-First, run the development server:
+First install, then run the development server:
 
 ```bash
+npm i
 npm run dev
 # or
+yarn 
 yarn dev
 # or
+pnpm i
 pnpm dev
 # or
+bun i
 bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Project Structure
-
-- `src/pages` - Application pages (dashboard, audit logs, login, etc.)
-- `src/components` - UI components
-- `prisma/` - Database schema and migrations
-- `public/` - Static assets and images
 
 ## License
 

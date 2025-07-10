@@ -7,7 +7,7 @@
     "build": "next build ",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "npx tsx ./seeddb.ts"
+    "postinstall": "npx drizzle-kit push && npx tsx ./seeddb.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
